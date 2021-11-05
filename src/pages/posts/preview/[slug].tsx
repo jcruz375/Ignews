@@ -2,7 +2,7 @@
 import { GetStaticProps } from "next";
 import { useSession } from "next-auth/client";
 import Head from 'next/head';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { useRouter } from "next/router";
 import { RichText } from "prismic-dom";
 import { useEffect } from "react";
@@ -83,6 +83,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       post,
     },
-    revalidade: 60 * 30, //30 minutes
+    revalidate: 60 * 30, //30 minutes
   }
 };
