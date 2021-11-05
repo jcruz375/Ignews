@@ -1,7 +1,7 @@
 import Prismic from '@prismicio/client';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { getPrismicClient } from '../../services/prismic';
 import { RichText } from "prismic-dom";
 import styles from './styles.module.scss';

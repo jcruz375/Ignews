@@ -1,9 +1,8 @@
-import styles from './styles.module.scss';
 import Image from "next/image";
-import { SignButton } from '../SignInButton';
 import React from 'react';
-import Link from 'next/Link';
 import { ActiveLink } from '../ActiveLink';
+import { SignButton } from '../SignInButton';
+import styles from './styles.module.scss';
 
 export function Header() {
   return (
